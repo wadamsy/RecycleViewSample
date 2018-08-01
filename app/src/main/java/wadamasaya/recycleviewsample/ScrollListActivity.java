@@ -34,7 +34,7 @@ public class ScrollListActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setLogo(R.mipmap.ic_launcher);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar) ;
         CollapsingToolbarLayout toolbarLayout = findViewById(R.id.toolbarLayout);
         toolbarLayout.setTitle(getString(R.string.toolbar_title));
         toolbarLayout.setExpandedTitleColor(Color.WHITE);
